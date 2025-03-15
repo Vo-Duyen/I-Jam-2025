@@ -1,0 +1,960 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.50f1 (c3db7f8bf9b1) revision 12835711'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit Professional' Language: 'en' Physical Memory: 15603 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.50f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+D:/i-jam/I-Jam-2025
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+54290
+Successfully changed project path to: D:/i-jam/I-Jam-2025
+D:/i-jam/I-Jam-2025
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [19592]  Target information:
+
+Player connection [19592]  * "[IP] 172.72.149.241 [Port] 0 [Flags] 2 [Guid] 2351818870 [EditorId] 2351818870 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-2VH58SJ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [19592] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [19592] Host joined alternative multi-casting on [225.0.0.222:34997]...
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Refreshing native plugins compatible for Editor in 9.93 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.50f1 (c3db7f8bf9b1)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.50f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/i-jam/I-Jam-2025/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 Laptop GPU (ID=0x25e2)
+    Vendor:   NVIDIA
+    VRAM:     3964 MB
+    Driver:   32.0.15.6103
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.50f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.50f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.50f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56436
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.50f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.50f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.007136 seconds.
+- Loaded All Assemblies, in  0.311 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 249 ms
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.485 seconds
+Domain Reload Profiling: 795ms
+	BeginReloadAssembly (110ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (52ms)
+	LoadAllAssembliesAndSetupDomain (112ms)
+		LoadAssemblies (109ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (109ms)
+			TypeCache.Refresh (108ms)
+				TypeCache.ScanAssembly (97ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (485ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (451ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (313ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (99ms)
+			ProcessInitializeOnLoadMethodAttributes (33ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.485 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.483 seconds
+Domain Reload Profiling: 968ms
+	BeginReloadAssembly (122ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (298ms)
+		LoadAssemblies (235ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (131ms)
+			TypeCache.Refresh (109ms)
+				TypeCache.ScanAssembly (96ms)
+			ScanForSourceGeneratedMonoScriptInfo (17ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (484ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (354ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (54ms)
+			ProcessInitializeOnLoadAttributes (248ms)
+			ProcessInitializeOnLoadMethodAttributes (29ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 2.58 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3979 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (241.5 KB). Loaded Objects now: 4444.
+Memory consumption went from 140.0 MB to 139.7 MB.
+Total: 3.207000 ms (FindLiveObjects: 0.292500 ms CreateObjectMapping: 0.149900 ms MarkObjects: 2.584400 ms  DeleteObjects: 0.178600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.659 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.586 seconds
+Domain Reload Profiling: 1245ms
+	BeginReloadAssembly (420ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (290ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (34ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (181ms)
+		LoadAssemblies (239ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (11ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (587ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (399ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (62ms)
+			ProcessInitializeOnLoadAttributes (267ms)
+			ProcessInitializeOnLoadMethodAttributes (41ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (18ms)
+Refreshing native plugins compatible for Editor in 4.22 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3974 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (213.7 KB). Loaded Objects now: 4449.
+Memory consumption went from 139.2 MB to 139.0 MB.
+Total: 3.806500 ms (FindLiveObjects: 0.476400 ms CreateObjectMapping: 0.211500 ms MarkObjects: 2.922500 ms  DeleteObjects: 0.195200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.365 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.874 seconds
+Domain Reload Profiling: 1238ms
+	BeginReloadAssembly (129ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (31ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (173ms)
+		LoadAssemblies (224ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (11ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (874ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (436ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (63ms)
+			ProcessInitializeOnLoadAttributes (306ms)
+			ProcessInitializeOnLoadMethodAttributes (40ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Refreshing native plugins compatible for Editor in 3.40 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3974 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (213.6 KB). Loaded Objects now: 4453.
+Memory consumption went from 139.2 MB to 139.0 MB.
+Total: 4.122300 ms (FindLiveObjects: 0.579200 ms CreateObjectMapping: 0.215600 ms MarkObjects: 3.130600 ms  DeleteObjects: 0.195600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.373 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.896 seconds
+Domain Reload Profiling: 1268ms
+	BeginReloadAssembly (140ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (168ms)
+		LoadAssemblies (225ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (11ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (896ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (436ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (68ms)
+			ProcessInitializeOnLoadAttributes (303ms)
+			ProcessInitializeOnLoadMethodAttributes (37ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 3.77 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3974 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (213.5 KB). Loaded Objects now: 4457.
+Memory consumption went from 139.2 MB to 139.0 MB.
+Total: 3.693100 ms (FindLiveObjects: 0.410600 ms CreateObjectMapping: 0.158500 ms MarkObjects: 2.802500 ms  DeleteObjects: 0.319800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1508627.389873 seconds.
+  path: Assets/Map/Background/Summer/summer__47.asset
+  artifactKey: Guid(3cb8727e8f6b5174cb8e4a2e05a743d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Background/Summer/summer__47.asset using Guid(3cb8727e8f6b5174cb8e4a2e05a743d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5bf50f5c941a3b4cf4204080cb6ec968') in 0.107818 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Map/Background/Summer/summer__57.asset
+  artifactKey: Guid(7b0ca0453db32f540b640250355eb7ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Background/Summer/summer__57.asset using Guid(7b0ca0453db32f540b640250355eb7ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2b2bc51e0c837f21772adc53d486b21b') in 0.017706 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Map/Background/Summer/summer__54.asset
+  artifactKey: Guid(58d3a7013cd0a29448362aada0ec53ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Background/Summer/summer__54.asset using Guid(58d3a7013cd0a29448362aada0ec53ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '4243f304c8a2b53b117f1ddd5c963680') in 0.017165 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Map/Background/Summer/summer__56.asset
+  artifactKey: Guid(bdeb0ca5b4bdafe4291742a0aa9733f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Background/Summer/summer__56.asset using Guid(bdeb0ca5b4bdafe4291742a0aa9733f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '283aade62a4312dda1c7eaaf5657b4e8') in 0.015830 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Map/Background/Summer/summer__51.asset
+  artifactKey: Guid(c5fa1a49408b9444381dcc9d60b9dff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Background/Summer/summer__51.asset using Guid(c5fa1a49408b9444381dcc9d60b9dff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0f4ca95251458c14703619da1ed8f056') in 0.012489 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.604849 seconds.
+  path: Assets/Map/Background/Summer/summer__59.asset
+  artifactKey: Guid(9ef356f44215e144790c55027ce76b3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Background/Summer/summer__59.asset using Guid(9ef356f44215e144790c55027ce76b3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0de65ca306b686972a82e4b9f1191b53') in 0.005134 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Map/Background/Summer/summer__70.asset
+  artifactKey: Guid(fb5c441884ce1fb4ba4f93a8672781f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Background/Summer/summer__70.asset using Guid(fb5c441884ce1fb4ba4f93a8672781f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '79df7a10585b380093c613b04dc76f29') in 0.020241 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Map/Background/Summer/summer__67.asset
+  artifactKey: Guid(8bf09c197fad2de4eb7f968485836451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Background/Summer/summer__67.asset using Guid(8bf09c197fad2de4eb7f968485836451) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2f8d96550bbb1bd942a8a845ad3704d5') in 0.004622 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Map/Background/Summer/summer__69.asset
+  artifactKey: Guid(5f12538519a3dcc4fa16822a3c15e79d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Background/Summer/summer__69.asset using Guid(5f12538519a3dcc4fa16822a3c15e79d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '329778620a47676fee9c243442f95cb1') in 0.013856 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Map/Background/Summer/summer__82.asset
+  artifactKey: Guid(67735ca056b30c54c81349fbe9959dec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Background/Summer/summer__82.asset using Guid(67735ca056b30c54c81349fbe9959dec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e6362084a92d7ca9eb1744948f4bdd1c') in 0.014351 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/Map/Background/Summer/summer__75.asset
+  artifactKey: Guid(82b3fe0c8bdd4404eae92cf488ee0cf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Background/Summer/summer__75.asset using Guid(82b3fe0c8bdd4404eae92cf488ee0cf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9f1cc827e57021ffe9cd08ca04b16021') in 0.015800 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Map/Background/Summer/summer__76.asset
+  artifactKey: Guid(4c8465c14e1dbf44d927307a7cec69a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Background/Summer/summer__76.asset using Guid(4c8465c14e1dbf44d927307a7cec69a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd06a8f1c5ed1d4126451f8c65df58287') in 0.015232 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Map/Background/Summer/summer__77.asset
+  artifactKey: Guid(eab2021651a444d41b95307b00955a5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Background/Summer/summer__77.asset using Guid(eab2021651a444d41b95307b00955a5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '4cc3435556307b8958bfa4d5cb46e667') in 0.014174 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Map/Background/Summer/summer__63.asset
+  artifactKey: Guid(285017d7434b9b341bc203dc81273459) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Background/Summer/summer__63.asset using Guid(285017d7434b9b341bc203dc81273459) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0855c015750f68be9db35254bda01017') in 0.013193 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Map/Background/Summer/summer__65.asset
+  artifactKey: Guid(afe45eded31a5cd4f851ef1357bbb9d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Background/Summer/summer__65.asset using Guid(afe45eded31a5cd4f851ef1357bbb9d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e8ea1730e48eb608d23db285927894b0') in 0.006335 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Map/Background/Summer/summer__78.asset
+  artifactKey: Guid(f020aebb5c449e5489e4d667f9cc7fd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Background/Summer/summer__78.asset using Guid(f020aebb5c449e5489e4d667f9cc7fd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '80c7f4907d88104698a3697de4c6b7d2') in 0.012689 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Map/Background/Summer/summer__74.asset
+  artifactKey: Guid(5cee6b02cd51d2741a8cda8de987a3bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Background/Summer/summer__74.asset using Guid(5cee6b02cd51d2741a8cda8de987a3bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3b82950a17055e06d93dc4b2ba7b6a0c') in 0.013448 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.014886 seconds.
+  path: Assets/Map/Background/Summer/summer__83.asset
+  artifactKey: Guid(179ffec3981c9ce408ec399c12258af0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Background/Summer/summer__83.asset using Guid(179ffec3981c9ce408ec399c12258af0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '06a7c17e488ded14b5d95432c34da8c5') in 0.012964 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Map/Background/Summer/summer__93.asset
+  artifactKey: Guid(4d7bc5f6fa00b5a4eb2b766e98d84b5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Background/Summer/summer__93.asset using Guid(4d7bc5f6fa00b5a4eb2b766e98d84b5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ef4122fe4732cb335da3817f41b8ba6c') in 0.015721 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Map/Background/Summer/summer__89.asset
+  artifactKey: Guid(12d27cb3d73a28e478cd53de60e6faeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Background/Summer/summer__89.asset using Guid(12d27cb3d73a28e478cd53de60e6faeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'bd939815094321abee818db4265ad113') in 0.014900 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Map/Background/Summer/summer__85.asset
+  artifactKey: Guid(8c76bfa8eaf75b84796661dcfc38e3db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Background/Summer/summer__85.asset using Guid(8c76bfa8eaf75b84796661dcfc38e3db) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e9d450f0f2ddf2e1fd0ace985c911b87') in 0.014206 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Map/Background/Summer/summer__92.asset
+  artifactKey: Guid(5f99dc5d06cedd446b971a9684489fa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Background/Summer/summer__92.asset using Guid(5f99dc5d06cedd446b971a9684489fa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3c712eef76ccaf73ae67464ef9af14fc') in 0.014398 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Map/Background/Summer/summer__87.asset
+  artifactKey: Guid(68d88ce840f4483409a8dfbe2225c04d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Background/Summer/summer__87.asset using Guid(68d88ce840f4483409a8dfbe2225c04d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7aab9ccb0add36cb2213842de1c61e26') in 0.015286 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.305677 seconds.
+  path: Assets/Map/Background/Summer/summer__95.asset
+  artifactKey: Guid(b4416151c179fc94a9c5180a6b98e7c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Background/Summer/summer__95.asset using Guid(b4416151c179fc94a9c5180a6b98e7c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '065d19173d0961ad16381c0feb70345b') in 0.014086 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Map/Background/Summer/summer__101.asset
+  artifactKey: Guid(fe666c07310ce0f4ab9f84caf405c720) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Background/Summer/summer__101.asset using Guid(fe666c07310ce0f4ab9f84caf405c720) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '69091353f2dca53da801636a7a84353e') in 0.013406 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Map/Background/Summer/summer__98.asset
+  artifactKey: Guid(cc656df10c7f03242954e95fe8a0d962) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Background/Summer/summer__98.asset using Guid(cc656df10c7f03242954e95fe8a0d962) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b00a1bd7db942018c65748f9f53d5918') in 0.015039 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Map/Background/Summer/summer__97.asset
+  artifactKey: Guid(93d2c6a6d61b55e4499dafb736595468) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Background/Summer/summer__97.asset using Guid(93d2c6a6d61b55e4499dafb736595468) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'cb6df9afcb82a27b908e58d1121a3677') in 0.013837 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Map/Background/Summer/summer__113.asset
+  artifactKey: Guid(6928928147afb644ba1331e8a58308d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Background/Summer/summer__113.asset using Guid(6928928147afb644ba1331e8a58308d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '78864c83213ad3540cfb77a6df9e07b5') in 0.018180 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Map/Background/Summer/summer__110.asset
+  artifactKey: Guid(5721a7f7cdf5cf549ac8f16eda7e7154) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Background/Summer/summer__110.asset using Guid(5721a7f7cdf5cf549ac8f16eda7e7154) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '29551acd5ecb00122c35e56b8b2ad0af') in 0.012960 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Map/Background/Summer/summer__118.asset
+  artifactKey: Guid(ba862de2ed5ba1a49bdefb4ff54dabbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Background/Summer/summer__118.asset using Guid(ba862de2ed5ba1a49bdefb4ff54dabbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ce884c072d0102818aad0b3c131a597f') in 0.014238 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Map/Background/Summer/summer__114.asset
+  artifactKey: Guid(5e5a62f32fc71cc4692b800f5bd61a04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Background/Summer/summer__114.asset using Guid(5e5a62f32fc71cc4692b800f5bd61a04) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c5446c12b916f4b6d3f6b0553b59c92a') in 0.013898 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Map/Background/Summer/summer__108.asset
+  artifactKey: Guid(92c80842fdbc1a542afd49ec0b2b8187) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Background/Summer/summer__108.asset using Guid(92c80842fdbc1a542afd49ec0b2b8187) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2b13a2532167495fc1c869954dcab02d') in 0.015995 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Map/Background/Summer/summer__126.asset
+  artifactKey: Guid(fb0b83cf36d7bc84499faac4768040a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Background/Summer/summer__126.asset using Guid(fb0b83cf36d7bc84499faac4768040a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '72ba5db6baf0fd473caa7300bf1c7dc4') in 0.014629 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Map/Background/Summer/summer__128.asset
+  artifactKey: Guid(bda52444e60da0445ae0c39e54dc1659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Background/Summer/summer__128.asset using Guid(bda52444e60da0445ae0c39e54dc1659) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2ca280a458e95d27d75df829e7c4a329') in 0.014915 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Map/Background/Summer/summer__120.asset
+  artifactKey: Guid(71edae4d24c5c344db63706346ce40dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Background/Summer/summer__120.asset using Guid(71edae4d24c5c344db63706346ce40dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '46d8f4794f4bad063daa8a74c8085916') in 0.014799 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Map/Background/Summer/summer__119.asset
+  artifactKey: Guid(b90c7dc1a99ec664685a4859cf0cbc8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Background/Summer/summer__119.asset using Guid(b90c7dc1a99ec664685a4859cf0cbc8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a9e990f223f279c5c2d4a69e52db5206') in 0.013487 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Map/Background/Summer/summer__130.asset
+  artifactKey: Guid(c037b6f7999e2d34aa1209e150eed3dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Background/Summer/summer__130.asset using Guid(c037b6f7999e2d34aa1209e150eed3dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1bec344c05227586cef70103446a6757') in 0.005250 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Map/Background/Summer/summer__111.asset
+  artifactKey: Guid(b920b5f0be757d844aac53f54ca60bab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Background/Summer/summer__111.asset using Guid(b920b5f0be757d844aac53f54ca60bab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f1ce32a2862b7ef1101c7e3ad124a624') in 0.015006 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Map/Background/Summer/summer__123.asset
+  artifactKey: Guid(55f322b8dafca91498de5f7cf25e839a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Background/Summer/summer__123.asset using Guid(55f322b8dafca91498de5f7cf25e839a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8ef84b7594e09f172709d57ec8c5521f') in 0.014488 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Map/Background/Summer/summer__115.asset
+  artifactKey: Guid(4a7368b012119774581e3671318bf513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Background/Summer/summer__115.asset using Guid(4a7368b012119774581e3671318bf513) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '14ca5441275a81592dc6df27de6ad8f9') in 0.015530 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Map/Background/Summer/summer__106.asset
+  artifactKey: Guid(c47f4deeb31471846b476a892836996e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Background/Summer/summer__106.asset using Guid(c47f4deeb31471846b476a892836996e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e99517ae644e182a7d49b5952587bc07') in 0.013946 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.061548 seconds.
+  path: Assets/Map/Background/Summer/summer__131.asset
+  artifactKey: Guid(a7a1216eee52e814b80a17dab12341e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Background/Summer/summer__131.asset using Guid(a7a1216eee52e814b80a17dab12341e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c55e2c71e5c6ba8354952b2b22301937') in 0.005662 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Map/Background/Summer/summer__133.asset
+  artifactKey: Guid(32028c6eb2de6324fbfc91287ada126c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Background/Summer/summer__133.asset using Guid(32028c6eb2de6324fbfc91287ada126c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b58aed77e05e17855ada47a1fb484b72') in 0.022195 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Map/Background/Summer/summer__138.asset
+  artifactKey: Guid(405ff8e08b7a8ec45abfdbdbd574e21b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Background/Summer/summer__138.asset using Guid(405ff8e08b7a8ec45abfdbdbd574e21b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '657beed1fa4e2a27af7d34e76fe9bce5') in 0.015875 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Map/Background/Summer/summer__141.asset
+  artifactKey: Guid(b420634742250ac4481c66191d0ef4ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Background/Summer/summer__141.asset using Guid(b420634742250ac4481c66191d0ef4ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '062860d03a7cd17374e6b276f2cd4baf') in 0.015974 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Map/Background/Summer/summer__135.asset
+  artifactKey: Guid(481f656257037154f92a633941ed33af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Background/Summer/summer__135.asset using Guid(481f656257037154f92a633941ed33af) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '11bb9cf0bf88a6fe620e4381274287d6') in 0.006029 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Map/Background/Summer/summer__140.asset
+  artifactKey: Guid(05a7f227fab90d0448d6d895245546a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Background/Summer/summer__140.asset using Guid(05a7f227fab90d0448d6d895245546a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '83d9e8dcaaff649108ee390e90afe537') in 0.015861 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.459758 seconds.
+  path: Assets/Map/Background/Summer/summer__143.asset
+  artifactKey: Guid(a6007a2d417855744a3bc0a33b5dcc83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Background/Summer/summer__143.asset using Guid(a6007a2d417855744a3bc0a33b5dcc83) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c55104e85e042acf78d028e196f0c6f7') in 0.018635 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Map/Background/Summer/summer__146.asset
+  artifactKey: Guid(ef18fe82b27fdf940b85419acd483669) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Background/Summer/summer__146.asset using Guid(ef18fe82b27fdf940b85419acd483669) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '01b7bf61ff270b5e80f797d3306d42e4') in 0.012798 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Map/Background/Summer/summer__160.asset
+  artifactKey: Guid(a5435ea8930f47b4795104cefd1858bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Background/Summer/summer__160.asset using Guid(a5435ea8930f47b4795104cefd1858bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'df213248fc03b12c83625e98c7fba935') in 0.014236 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Map/Background/Summer/summer__164.asset
+  artifactKey: Guid(ec321be51550fbf429b84fe12a096d55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Background/Summer/summer__164.asset using Guid(ec321be51550fbf429b84fe12a096d55) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c3db950cd81c4be6632a04e57d72e361') in 0.013655 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Map/Background/Summer/summer__172.asset
+  artifactKey: Guid(e392322e62c385545bae5d5f9b201613) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Background/Summer/summer__172.asset using Guid(e392322e62c385545bae5d5f9b201613) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2946bcc411b24962bfa76c65311beec8') in 0.014057 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Map/Background/Summer/summer__166.asset
+  artifactKey: Guid(63e719b023e1d3d4d958b7c99462675a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Background/Summer/summer__166.asset using Guid(63e719b023e1d3d4d958b7c99462675a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '623d21264cddcb3219303dadf1754673') in 0.013936 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Map/Background/Summer/summer__167.asset
+  artifactKey: Guid(65c26051b9cca4a4f842888b5c5cc232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Background/Summer/summer__167.asset using Guid(65c26051b9cca4a4f842888b5c5cc232) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0aab913cafe4c81301489b26387811bd') in 0.012974 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Map/Background/Summer/summer__156.asset
+  artifactKey: Guid(194611f79b66a364383db0a535f793da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Background/Summer/summer__156.asset using Guid(194611f79b66a364383db0a535f793da) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '43a1ffcfc47c5467b98f150601608cf0') in 0.015180 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Map/Background/Summer/summer__150.asset
+  artifactKey: Guid(7573c0571f5259740bca998dba6d23b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Background/Summer/summer__150.asset using Guid(7573c0571f5259740bca998dba6d23b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1e53e4bccb3be98eab61b40adfb05ec3') in 0.014829 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Map/Background/Summer/summer__145.asset
+  artifactKey: Guid(a3976fc97371ecc4397d89963ff86f63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Background/Summer/summer__145.asset using Guid(a3976fc97371ecc4397d89963ff86f63) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '14e11046e2fa5a2ecca8f0236b44c7f5') in 0.013953 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Map/Background/Summer/summer__169.asset
+  artifactKey: Guid(0d091462d2b117d44b43d83e00928177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Background/Summer/summer__169.asset using Guid(0d091462d2b117d44b43d83e00928177) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8c2af91748f58c53bdc67614d09ce70c') in 0.014527 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Map/Background/Summer/summer__154.asset
+  artifactKey: Guid(12317fe06ea60ac478c8f9be978bdd42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Background/Summer/summer__154.asset using Guid(12317fe06ea60ac478c8f9be978bdd42) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c1743384fea47673f0b6fbf73af88aec') in 0.014432 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Map/Background/Summer/summer__176.asset
+  artifactKey: Guid(4f38dadc4436c724cbfec93667acc63e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Background/Summer/summer__176.asset using Guid(4f38dadc4436c724cbfec93667acc63e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '88651cf370a509511e1859f0c8c89049') in 0.015430 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Map/Background/Summer/summer__165.asset
+  artifactKey: Guid(b58701833a5a7b041b059bd1e1a9d772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Background/Summer/summer__165.asset using Guid(b58701833a5a7b041b059bd1e1a9d772) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '11fc58a0d4ad3c77d91f3f3f3b50a8ca') in 0.015505 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Map/Background/Summer/summer__151.asset
+  artifactKey: Guid(d83d4e070ee0d204db67760c13c83313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Background/Summer/summer__151.asset using Guid(d83d4e070ee0d204db67760c13c83313) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0eec42a1baf200b17aa67cc1a2b132aa') in 0.016085 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Map/Background/Summer/summer__163.asset
+  artifactKey: Guid(7b96e599600c0f4428a5ea094f865804) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Background/Summer/summer__163.asset using Guid(7b96e599600c0f4428a5ea094f865804) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'cc530c276610989d4191061dd1b45365') in 0.017806 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Map/Background/Summer/summer__177.asset
+  artifactKey: Guid(212ccfb6f8705cc49bc0c6ed3e8c1c68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Background/Summer/summer__177.asset using Guid(212ccfb6f8705cc49bc0c6ed3e8c1c68) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b5193aabddd55f4ff0fd9dc8f9128fa9') in 0.015182 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Map/Background/Summer/summer__178.asset
+  artifactKey: Guid(5468bdb537d0e13459e0e9e9fa32b2ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Background/Summer/summer__178.asset using Guid(5468bdb537d0e13459e0e9e9fa32b2ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '43f1d0bdfd8efd12ff8ffe9cb329d4b8') in 0.013854 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3

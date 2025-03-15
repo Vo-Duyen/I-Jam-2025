@@ -15,7 +15,7 @@ D:/i-jam/I-Jam-2025
 -logFile
 Logs/AssetImportWorker3.log
 -srvPort
-55513
+53740
 Successfully changed project path to: D:/i-jam/I-Jam-2025
 D:/i-jam/I-Jam-2025
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,14 +49,14 @@ D:/i-jam/I-Jam-2025
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [16308]  Target information:
+Player connection [10524]  Target information:
 
-Player connection [16308]  * "[IP] 172.72.149.241 [Port] 0 [Flags] 2 [Guid] 647352080 [EditorId] 647352080 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-2VH58SJ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [10524]  * "[IP] 172.72.149.241 [Port] 0 [Flags] 2 [Guid] 1667769674 [EditorId] 1667769674 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-2VH58SJ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [16308] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [16308] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [10524] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [10524] Host joined alternative multi-casting on [225.0.0.222:34997]...
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-Refreshing native plugins compatible for Editor in 8.63 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 10.10 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.50f1 (c3db7f8bf9b1)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.50f1/Editor/Data/Resources/UnitySubsystems
@@ -72,47 +72,47 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.50f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.50f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.50f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56444
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56988
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.50f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.50f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.007918 seconds.
-- Loaded All Assemblies, in  0.379 seconds
+Registered in 0.007566 seconds.
+- Loaded All Assemblies, in  0.416 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 307 ms
+Android Extension - Scanning For ADB Devices 260 ms
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.620 seconds
-Domain Reload Profiling: 998ms
-	BeginReloadAssembly (101ms)
+- Finished resetting the current domain, in  0.500 seconds
+Domain Reload Profiling: 913ms
+	BeginReloadAssembly (140ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (34ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (59ms)
-	LoadAllAssembliesAndSetupDomain (173ms)
-		LoadAssemblies (99ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (65ms)
+	LoadAllAssembliesAndSetupDomain (160ms)
+		LoadAssemblies (141ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (170ms)
-			TypeCache.Refresh (169ms)
-				TypeCache.ScanAssembly (152ms)
+		AnalyzeDomain (155ms)
+			TypeCache.Refresh (154ms)
+				TypeCache.ScanAssembly (142ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (620ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (500ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (572ms)
+		SetupLoadedEditorAssemblies (463ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (396ms)
+			InitializePlatformSupportModulesInManaged (324ms)
 			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (122ms)
-			ProcessInitializeOnLoadMethodAttributes (47ms)
+			ProcessInitializeOnLoadAttributes (99ms)
+			ProcessInitializeOnLoadMethodAttributes (35ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -121,210 +121,52 @@ Domain Reload Profiling: 998ms
 Worker process is ready to serve import requests
 Caller must complete domain reload
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.641 seconds
+- Loaded All Assemblies, in  0.532 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.624 seconds
-Domain Reload Profiling: 1263ms
-	BeginReloadAssembly (180ms)
+- Finished resetting the current domain, in  0.504 seconds
+Domain Reload Profiling: 1035ms
+	BeginReloadAssembly (129ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (7ms)
+		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (27ms)
-	RebuildCommonClasses (39ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (46ms)
-	LoadAllAssembliesAndSetupDomain (364ms)
-		LoadAssemblies (308ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (160ms)
-			TypeCache.Refresh (135ms)
-				TypeCache.ScanAssembly (120ms)
-			ScanForSourceGeneratedMonoScriptInfo (19ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (624ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (455ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (18ms)
-			SetLoadedEditorAssemblies (5ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (73ms)
-			ProcessInitializeOnLoadAttributes (315ms)
-			ProcessInitializeOnLoadMethodAttributes (38ms)
-			AfterProcessingInitializeOnLoad (6ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 3.00 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3979 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 38 unused Assets / (241.5 KB). Loaded Objects now: 4444.
-Memory consumption went from 140.0 MB to 139.7 MB.
-Total: 3.352800 ms (FindLiveObjects: 0.275500 ms CreateObjectMapping: 0.110000 ms MarkObjects: 2.777600 ms  DeleteObjects: 0.188700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 1513050.934585 seconds.
-  path: Assets/Map/Background/Forest/3.png
-  artifactKey: Guid(3b53f5bd490f445488306467d6b337bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Map/Background/Forest/3.png using Guid(3b53f5bd490f445488306467d6b337bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '07d2bb61f8ab3b4f6158fcf050c036f0') in 0.105455 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Map/Background/Forest/11.png
-  artifactKey: Guid(ab435b943b5b26b45b87c2e7d05600cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Map/Background/Forest/11.png using Guid(ab435b943b5b26b45b87c2e7d05600cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '0e371a87b8b73042868e10050e93f584') in 0.020654 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Map/Background/Forest/12.png
-  artifactKey: Guid(7936f7842dd96cc45b3f97325bb584ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Map/Background/Forest/12.png using Guid(7936f7842dd96cc45b3f97325bb584ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '2cc918327c3e971eb211f2a62074b008') in 0.023101 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Prepare
-Caller must complete domain reload
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.806 seconds
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.698 seconds
-Domain Reload Profiling: 1504ms
-	BeginReloadAssembly (519ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (367ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (47ms)
-	RebuildCommonClasses (25ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (26ms)
-	LoadAllAssembliesAndSetupDomain (227ms)
-		LoadAssemblies (291ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (11ms)
-			TypeCache.Refresh (5ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (699ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (497ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (21ms)
-			SetLoadedEditorAssemblies (6ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (82ms)
-			ProcessInitializeOnLoadAttributes (337ms)
-			ProcessInitializeOnLoadMethodAttributes (39ms)
-			AfterProcessingInitializeOnLoad (11ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (15ms)
-Refreshing native plugins compatible for Editor in 4.19 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3973 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 25 unused Assets / (213.7 KB). Loaded Objects now: 4455.
-Memory consumption went from 143.4 MB to 143.1 MB.
-Total: 4.640900 ms (FindLiveObjects: 0.360500 ms CreateObjectMapping: 0.162200 ms MarkObjects: 3.925500 ms  DeleteObjects: 0.191700 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Caller must complete domain reload
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.363 seconds
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.935 seconds
-Domain Reload Profiling: 1297ms
-	BeginReloadAssembly (132ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (10ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (31ms)
-	RebuildCommonClasses (26ms)
+		CreateAndSetChildDomain (23ms)
+	RebuildCommonClasses (30ms)
 	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (24ms)
-	LoadAllAssembliesAndSetupDomain (170ms)
-		LoadAssemblies (227ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (330ms)
+		LoadAssemblies (261ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (11ms)
-			TypeCache.Refresh (5ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (936ms)
+		AnalyzeDomain (139ms)
+			TypeCache.Refresh (118ms)
+				TypeCache.ScanAssembly (103ms)
+			ScanForSourceGeneratedMonoScriptInfo (16ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (504ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (497ms)
+		SetupLoadedEditorAssemblies (376ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (15ms)
+			InitializePlatformSupportModulesInManaged (14ms)
 			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (68ms)
-			ProcessInitializeOnLoadAttributes (363ms)
-			ProcessInitializeOnLoadMethodAttributes (37ms)
-			AfterProcessingInitializeOnLoad (8ms)
+			BeforeProcessingInitializeOnLoad (58ms)
+			ProcessInitializeOnLoadAttributes (262ms)
+			ProcessInitializeOnLoadMethodAttributes (32ms)
+			AfterProcessingInitializeOnLoad (5ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (16ms)
-Refreshing native plugins compatible for Editor in 4.02 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 2.48 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3974 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 25 unused Assets / (213.6 KB). Loaded Objects now: 4459.
-Memory consumption went from 143.6 MB to 143.4 MB.
-Total: 3.942000 ms (FindLiveObjects: 0.410900 ms CreateObjectMapping: 0.154700 ms MarkObjects: 3.181100 ms  DeleteObjects: 0.194200 ms)
+Unloading 3979 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (241.7 KB). Loaded Objects now: 4445.
+Memory consumption went from 140.0 MB to 139.8 MB.
+Total: 3.429000 ms (FindLiveObjects: 0.295100 ms CreateObjectMapping: 0.193400 ms MarkObjects: 2.753400 ms  DeleteObjects: 0.185800 ms)
 
-Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
@@ -341,38 +183,488 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 5670.833510 seconds.
-  path: Assets/Map/Background/Event_Block/desertDungeon__31.asset
-  artifactKey: Guid(c8068a493512e784a8b1af41d777b248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Map/Background/Event_Block/desertDungeon__31.asset using Guid(c8068a493512e784a8b1af41d777b248) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'bda6b862e2359b207f0d931c2790743a') in 0.041375 seconds
+  Time since last request: 1533683.630223 seconds.
+  path: Assets/Map/Background_Map3/Caves/CaveG_0.asset
+  artifactKey: Guid(409560dff2741a94a9e4efc2291546ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Background_Map3/Caves/CaveG_0.asset using Guid(409560dff2741a94a9e4efc2291546ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2d0b29d123e2824c2d9f1761ffb2f97f') in 0.086482 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Map/Background/Event_Block/dungeon__32.asset
-  artifactKey: Guid(4c94459c04c50a646b953bd43dc50016) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Map/Background/Event_Block/dungeon__32.asset using Guid(4c94459c04c50a646b953bd43dc50016) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'e1a3bd763aa26c529873a7b5117af8a6') in 0.030374 seconds
+  Time since last request: 0.000036 seconds.
+  path: Assets/Map/Background_Map3/Caves/CaveG_7.asset
+  artifactKey: Guid(5b859d369869d7e4eb20b0ddf66b59ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Background_Map3/Caves/CaveG_7.asset using Guid(5b859d369869d7e4eb20b0ddf66b59ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c33bb5f766cc94af4e23be2d30711157') in 0.019540 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
   Time since last request: 0.000019 seconds.
-  path: Assets/Map/Background/Event_Block/dungeon__49.asset
-  artifactKey: Guid(c67caa8b26969094aabbe1e00c1f2319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Map/Background/Event_Block/dungeon__49.asset using Guid(c67caa8b26969094aabbe1e00c1f2319) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'b338a37641312ef126b32acce2e5bab4') in 0.016057 seconds
+  path: Assets/Map/Background_Map3/Caves/CaveG_21.asset
+  artifactKey: Guid(bc7afcfb52cb4884f86ff665bccf8321) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Background_Map3/Caves/CaveG_21.asset using Guid(bc7afcfb52cb4884f86ff665bccf8321) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd644af8f56f5f722fa620dc8858a04b3') in 0.015988 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Map/Background_Map3/Caves/CaveG_9.asset
+  artifactKey: Guid(f7c0a34c661ea02498be1c71a8a07724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Background_Map3/Caves/CaveG_9.asset using Guid(f7c0a34c661ea02498be1c71a8a07724) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2949a87bd94be64295dc1008fd794715') in 0.016532 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Map/Background_Map3/Caves/CaveG_13.asset
+  artifactKey: Guid(d5ec52ca606b04d42beabee489635641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Background_Map3/Caves/CaveG_13.asset using Guid(d5ec52ca606b04d42beabee489635641) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b389daf83c0139e3577f7d6bf388b04f') in 0.016249 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Map/Background_Map3/Caves/CaveG_42.asset
+  artifactKey: Guid(438d6bf9481d937488cf05c94da2f255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Background_Map3/Caves/CaveG_42.asset using Guid(438d6bf9481d937488cf05c94da2f255) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'bd58b9c58eb530ea35e5a0ae0962967d') in 0.017681 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Map/Background_Map3/Caves/CaveG_25.asset
+  artifactKey: Guid(1e0566e3b2881f8468e56131dfadc17e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Background_Map3/Caves/CaveG_25.asset using Guid(1e0566e3b2881f8468e56131dfadc17e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2fce29a7c4d2cf535d7a4750364aac28') in 0.016775 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
   Time since last request: 0.000028 seconds.
-  path: Assets/Map/Background/Event_Block/dungeon__31.asset
-  artifactKey: Guid(94dd27d16d7561a48ba580a6a8187bb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Map/Background/Event_Block/dungeon__31.asset using Guid(94dd27d16d7561a48ba580a6a8187bb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '51a06dbd4ef2bbe4be876a7cbfa52d42') in 0.013566 seconds
+  path: Assets/Map/Background_Map3/Caves/CaveG_19.asset
+  artifactKey: Guid(321f711571a0606428428b8a44307992) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Background_Map3/Caves/CaveG_19.asset using Guid(321f711571a0606428428b8a44307992) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8f0bf3c9bcc064a6262b94e4596c4092') in 0.015136 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Map/Background_Map3/Caves/CaveG_22.asset
+  artifactKey: Guid(2c2f820e569545547bcca87d5d662cbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Background_Map3/Caves/CaveG_22.asset using Guid(2c2f820e569545547bcca87d5d662cbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8aa7082345566ff046c6304560bdc306') in 0.016947 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Map/Background_Map3/Caves/CaveG_6.asset
+  artifactKey: Guid(5d35def4e0240574e9f66db0bdf27e49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Background_Map3/Caves/CaveG_6.asset using Guid(5d35def4e0240574e9f66db0bdf27e49) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c324b8ba9c616bfefa1ad2299ff7b18e') in 0.016280 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Map/Background_Map3/Caves/CaveG_18.asset
+  artifactKey: Guid(2d597f2f69ab707469cbab8117f94731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Background_Map3/Caves/CaveG_18.asset using Guid(2d597f2f69ab707469cbab8117f94731) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7b83d7153c6091775d8c13f918858d1e') in 0.015511 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Map/Background_Map3/Caves/CaveG_32.asset
+  artifactKey: Guid(c9b7ffd28e5a4bc4e81f5f5eb8ff846f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Background_Map3/Caves/CaveG_32.asset using Guid(c9b7ffd28e5a4bc4e81f5f5eb8ff846f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'cbdae6e28ef85490f2ee339a3f062dce') in 0.014590 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Map/Background_Map3/Caves/CaveG_31.asset
+  artifactKey: Guid(b1ef4c2bd8d4e7e41b746a7f8762b742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Background_Map3/Caves/CaveG_31.asset using Guid(b1ef4c2bd8d4e7e41b746a7f8762b742) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '28c556fdbfe46223e69c9fc6fb9acb39') in 0.014565 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Map/Background_Map3/Caves/CaveG_33.asset
+  artifactKey: Guid(cee9dcf52f0f1c34eb8c59b3fd0279b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Background_Map3/Caves/CaveG_33.asset using Guid(cee9dcf52f0f1c34eb8c59b3fd0279b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'fd1d3151ca6e71a9464f14944e7b2284') in 0.014293 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Map/Background_Map3/Caves/CaveG_2.asset
+  artifactKey: Guid(c5eb238b0a43f90498c99ee03503b76a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Background_Map3/Caves/CaveG_2.asset using Guid(c5eb238b0a43f90498c99ee03503b76a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b3457f21f7478e5bced89a7cf3c1360a') in 0.013767 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Map/Background_Map3/Caves/CaveG_29.asset
+  artifactKey: Guid(0290b199bc7ab3043a3779736c31c690) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Background_Map3/Caves/CaveG_29.asset using Guid(0290b199bc7ab3043a3779736c31c690) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f9424cfb5379fa43f71a3f363965313e') in 0.014576 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Map/Background_Map3/Caves/CaveG_30.asset
+  artifactKey: Guid(fce383ad510ebd54c8ae24418c642377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Background_Map3/Caves/CaveG_30.asset using Guid(fce383ad510ebd54c8ae24418c642377) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '47b842bb13da09cdcf16a25107adf16f') in 0.016427 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Map/Background_Map3/Caves/CaveG_11.asset
+  artifactKey: Guid(8b0604f3fed4e1945aaaa6f6dfbad934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Background_Map3/Caves/CaveG_11.asset using Guid(8b0604f3fed4e1945aaaa6f6dfbad934) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'da84fe9f34912145b540ebbafed69f24') in 0.016230 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Map/Background_Map3/Caves/CaveG_3.asset
+  artifactKey: Guid(845f821a838e98940b15f59c537964f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Background_Map3/Caves/CaveG_3.asset using Guid(845f821a838e98940b15f59c537964f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '87a09ed11f5093e1f9c45e05a81d012d') in 0.014446 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Map/Background_Map3/Caves/CaveG_36.asset
+  artifactKey: Guid(2dd99dae36f05204ea285ecfac49732d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Background_Map3/Caves/CaveG_36.asset using Guid(2dd99dae36f05204ea285ecfac49732d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9369e42668895117e5a4d9b55982106c') in 0.017372 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Map/Background_Map3/Caves/CaveG_14.asset
+  artifactKey: Guid(4a7f55039a98d3944b5b9850bcba57e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Background_Map3/Caves/CaveG_14.asset using Guid(4a7f55039a98d3944b5b9850bcba57e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'aeb74b83466b149388cef2d6c1837d6c') in 0.016973 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Map/Background_Map3/Caves/CaveG_40.asset
+  artifactKey: Guid(afdbfe430c1e39145a67f66792267e35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Background_Map3/Caves/CaveG_40.asset using Guid(afdbfe430c1e39145a67f66792267e35) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '17f35e3b90bc2b1fea2508b241ca369d') in 0.015589 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Map/Background_Map3/Caves/CaveG_39.asset
+  artifactKey: Guid(dc07178c3783c0f4eafdd2d7fd56f09a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Background_Map3/Caves/CaveG_39.asset using Guid(dc07178c3783c0f4eafdd2d7fd56f09a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8eab3570119dbf026f325e3451a81a7d') in 0.015928 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Map/Background_Map3/Caves/CaveG_20.asset
+  artifactKey: Guid(a2b05d17df9f9e74cbd71db7b7717505) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Background_Map3/Caves/CaveG_20.asset using Guid(a2b05d17df9f9e74cbd71db7b7717505) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a5d55b07b37084242ebc1fdd01e140bf') in 0.015839 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Map/Background_Map3/Caves/CaveG_16.asset
+  artifactKey: Guid(3a730a88c1abbd84e96adc470d76aecf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Background_Map3/Caves/CaveG_16.asset using Guid(3a730a88c1abbd84e96adc470d76aecf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e20f3e84d58b378dbaf9f225937ff2ce') in 0.017038 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Map/Background_Map3/Caves/CaveG_41.asset
+  artifactKey: Guid(93631910943fa764ba3a9220f34fa331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Background_Map3/Caves/CaveG_41.asset using Guid(93631910943fa764ba3a9220f34fa331) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '6d1e86e72c7fdcd1a9bd1f979c14bbcb') in 0.018430 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Map/Background_Map3/Caves/CaveG_37.asset
+  artifactKey: Guid(d272041b99cdc7f4bb58bb5b102fddce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Background_Map3/Caves/CaveG_37.asset using Guid(d272041b99cdc7f4bb58bb5b102fddce) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '03679f06b3a9c55486b6c4f0fe73cdc7') in 0.016529 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Map/Background_Map3/Caves/CaveG_12.asset
+  artifactKey: Guid(7ad51b102a37390408c1593b3c8a7f17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Background_Map3/Caves/CaveG_12.asset using Guid(7ad51b102a37390408c1593b3c8a7f17) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '204bb8a106164063be8c59fe59f98813') in 0.015555 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Map/Background_Map3/Caves/CaveG_38.asset
+  artifactKey: Guid(0a89e88d14bcaac40beb7c5e24ba5fec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Background_Map3/Caves/CaveG_38.asset using Guid(0a89e88d14bcaac40beb7c5e24ba5fec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '4ae15bd4d0981d39c856ecd7ea0c65e3') in 0.018911 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Map/Background_Map3/Caves/CaveG_27.asset
+  artifactKey: Guid(501c256342be72c40886dc88171029f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Background_Map3/Caves/CaveG_27.asset using Guid(501c256342be72c40886dc88171029f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f23d74220a17e39acede522faf7ac348') in 0.017142 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Map/Background_Map3/Caves/CaveG_23.asset
+  artifactKey: Guid(26e4e946955a6c14f93109bb4e1bf45b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Background_Map3/Caves/CaveG_23.asset using Guid(26e4e946955a6c14f93109bb4e1bf45b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c0adbc0c6db964b9e667eb8d427e2000') in 0.015746 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Map/Background_Map3/Caves/CaveG_15.asset
+  artifactKey: Guid(647ca50490c91e64b84506f46f85b256) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Background_Map3/Caves/CaveG_15.asset using Guid(647ca50490c91e64b84506f46f85b256) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'da8c96acf6894f42157e437db8e3ac63') in 0.016044 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Map/Background_Map3/Caves/CaveG_35.asset
+  artifactKey: Guid(ae3d31e25782174419d72f4c01571e80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Background_Map3/Caves/CaveG_35.asset using Guid(ae3d31e25782174419d72f4c01571e80) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3e670c25fc4777b0886bac083eaf61ce') in 0.018413 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 176.098153 seconds.
+  path: Assets/Map/Background_Map3/Caves/CaveG_1.asset
+  artifactKey: Guid(20c3d762f4bed2246bee2fc1b538be4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Background_Map3/Caves/CaveG_1.asset using Guid(20c3d762f4bed2246bee2fc1b538be4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '292de6df46301ce459568f07d43ceff2') in 0.018197 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Map/Background_Map3/Caves/CaveG_7.asset
+  artifactKey: Guid(5b859d369869d7e4eb20b0ddf66b59ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Background_Map3/Caves/CaveG_7.asset using Guid(5b859d369869d7e4eb20b0ddf66b59ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '721e6f3d7eb335590538ffb9ce430471') in 0.015491 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Map/Background_Map3/Caves/CaveG_9.asset
+  artifactKey: Guid(f7c0a34c661ea02498be1c71a8a07724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Background_Map3/Caves/CaveG_9.asset using Guid(f7c0a34c661ea02498be1c71a8a07724) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e5fe223992cf0bad43e4a1fa07ae29a7') in 0.017255 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Map/Background_Map3/Caves/CaveG_42.asset
+  artifactKey: Guid(438d6bf9481d937488cf05c94da2f255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Background_Map3/Caves/CaveG_42.asset using Guid(438d6bf9481d937488cf05c94da2f255) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'cdc0c8a45e55ac87d58a6be4bdb0430e') in 0.014568 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Map/Background_Map3/Caves/CaveG_19.asset
+  artifactKey: Guid(321f711571a0606428428b8a44307992) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Background_Map3/Caves/CaveG_19.asset using Guid(321f711571a0606428428b8a44307992) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1411b52095a597de7b7ede7ea36489da') in 0.015289 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Map/Background_Map3/Caves/CaveG_18.asset
+  artifactKey: Guid(2d597f2f69ab707469cbab8117f94731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Background_Map3/Caves/CaveG_18.asset using Guid(2d597f2f69ab707469cbab8117f94731) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3f2a403439cc8eb67ed0756c061c72dc') in 0.015310 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Map/Background_Map3/Caves/CaveG_31.asset
+  artifactKey: Guid(b1ef4c2bd8d4e7e41b746a7f8762b742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Background_Map3/Caves/CaveG_31.asset using Guid(b1ef4c2bd8d4e7e41b746a7f8762b742) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '886e0bab939743e0cc1dcc4094b3fd8b') in 0.015914 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Map/Background_Map3/Caves/CaveG_33.asset
+  artifactKey: Guid(cee9dcf52f0f1c34eb8c59b3fd0279b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Background_Map3/Caves/CaveG_33.asset using Guid(cee9dcf52f0f1c34eb8c59b3fd0279b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'faed2eb74f80a7733cc09045089ae1d9') in 0.014048 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Map/Background_Map3/Caves/CaveG_30.asset
+  artifactKey: Guid(fce383ad510ebd54c8ae24418c642377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Background_Map3/Caves/CaveG_30.asset using Guid(fce383ad510ebd54c8ae24418c642377) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3a23ae1d2919af469d6e3ff5a9fbf4cc') in 0.015142 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Map/Background_Map3/Caves/CaveG_11.asset
+  artifactKey: Guid(8b0604f3fed4e1945aaaa6f6dfbad934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Background_Map3/Caves/CaveG_11.asset using Guid(8b0604f3fed4e1945aaaa6f6dfbad934) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5186bcf44d714697b3846a158e2fc749') in 0.014529 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Map/Background_Map3/Caves/CaveG_14.asset
+  artifactKey: Guid(4a7f55039a98d3944b5b9850bcba57e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Background_Map3/Caves/CaveG_14.asset using Guid(4a7f55039a98d3944b5b9850bcba57e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5003532ad9f2c010cc9c7c9dfa8ea107') in 0.014799 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Map/Background_Map3/Caves/CaveG_39.asset
+  artifactKey: Guid(dc07178c3783c0f4eafdd2d7fd56f09a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Background_Map3/Caves/CaveG_39.asset using Guid(dc07178c3783c0f4eafdd2d7fd56f09a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9575cc8d5b6d42975eebc114009ebd32') in 0.014434 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Map/Background_Map3/Caves/CaveG_40.asset
+  artifactKey: Guid(afdbfe430c1e39145a67f66792267e35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Background_Map3/Caves/CaveG_40.asset using Guid(afdbfe430c1e39145a67f66792267e35) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f715c835bd0a0c72a3f970dc92fcf86c') in 0.014768 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Map/Background_Map3/Caves/CaveG_26.asset
+  artifactKey: Guid(b9a8fa105a06aef4cbfd14a02aed7677) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Background_Map3/Caves/CaveG_26.asset using Guid(b9a8fa105a06aef4cbfd14a02aed7677) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a55bf8ee8c2a5f81bf37ea0122ebe4cb') in 0.014757 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Map/Background_Map3/Caves/CaveG_8.asset
+  artifactKey: Guid(a367a9445ee38d84580307d6e545ff58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Background_Map3/Caves/CaveG_8.asset using Guid(a367a9445ee38d84580307d6e545ff58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3c7bd7c46db8e4287290d4ec4a70f3dc') in 0.016915 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Map/Background_Map3/Caves/CaveG_10.asset
+  artifactKey: Guid(36b28f75ce6687543ba6e84ea3c69903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Background_Map3/Caves/CaveG_10.asset using Guid(36b28f75ce6687543ba6e84ea3c69903) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b33b3d8e937e31f63aa240f02171d72a') in 0.017275 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Map/Background_Map3/Caves/CaveG_12.asset
+  artifactKey: Guid(7ad51b102a37390408c1593b3c8a7f17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Background_Map3/Caves/CaveG_12.asset using Guid(7ad51b102a37390408c1593b3c8a7f17) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ba0e74fe8aabf38f3c325430b3086afb') in 0.015986 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Map/Background_Map3/Caves/CaveG_5.asset
+  artifactKey: Guid(b09132c5161dc5e449a328469f7218f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Background_Map3/Caves/CaveG_5.asset using Guid(b09132c5161dc5e449a328469f7218f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c57ae70cf361a3af8a927370745f01cf') in 0.016409 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Map/Background_Map3/Caves/CaveG_27.asset
+  artifactKey: Guid(501c256342be72c40886dc88171029f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Background_Map3/Caves/CaveG_27.asset using Guid(501c256342be72c40886dc88171029f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'cb2322f2c4f3a7676c984016b4b1b8d6') in 0.015677 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Map/Background_Map3/Caves/CaveG_23.asset
+  artifactKey: Guid(26e4e946955a6c14f93109bb4e1bf45b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Background_Map3/Caves/CaveG_23.asset using Guid(26e4e946955a6c14f93109bb4e1bf45b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'eb9c796a1ca57626a32e8260da4f300e') in 0.015815 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Map/Background_Map3/Caves/CaveG_15.asset
+  artifactKey: Guid(647ca50490c91e64b84506f46f85b256) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Background_Map3/Caves/CaveG_15.asset using Guid(647ca50490c91e64b84506f46f85b256) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '4cfb72d4cfb285438f6a8b58c7dbd315') in 0.015928 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout

@@ -15,7 +15,7 @@ D:/i-jam/I-Jam-2025
 -logFile
 Logs/AssetImportWorker5.log
 -srvPort
-55513
+53740
 Successfully changed project path to: D:/i-jam/I-Jam-2025
 D:/i-jam/I-Jam-2025
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,14 +49,14 @@ D:/i-jam/I-Jam-2025
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [31144]  Target information:
+Player connection [18824]  Target information:
 
-Player connection [31144]  * "[IP] 172.72.149.241 [Port] 0 [Flags] 2 [Guid] 1031379606 [EditorId] 1031379606 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-2VH58SJ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [18824]  * "[IP] 172.72.149.241 [Port] 0 [Flags] 2 [Guid] 1142589114 [EditorId] 1142589114 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-2VH58SJ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [31144] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [31144] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [18824] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [18824] Host joined alternative multi-casting on [225.0.0.222:34997]...
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-Refreshing native plugins compatible for Editor in 8.08 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 10.79 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.50f1 (c3db7f8bf9b1)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.50f1/Editor/Data/Resources/UnitySubsystems
@@ -72,47 +72,47 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.50f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.50f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.50f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56752
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56440
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.50f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.50f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.007167 seconds.
-- Loaded All Assemblies, in  0.297 seconds
+Registered in 0.007394 seconds.
+- Loaded All Assemblies, in  0.334 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 264 ms
+Android Extension - Scanning For ADB Devices 270 ms
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.505 seconds
-Domain Reload Profiling: 800ms
-	BeginReloadAssembly (96ms)
+- Finished resetting the current domain, in  0.568 seconds
+Domain Reload Profiling: 902ms
+	BeginReloadAssembly (103ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (26ms)
+	RebuildCommonClasses (33ms)
 	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (48ms)
-	LoadAllAssembliesAndSetupDomain (118ms)
-		LoadAssemblies (95ms)
+	initialDomainReloadingComplete (53ms)
+	LoadAllAssembliesAndSetupDomain (135ms)
+		LoadAssemblies (101ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (116ms)
-			TypeCache.Refresh (114ms)
-				TypeCache.ScanAssembly (103ms)
+		AnalyzeDomain (133ms)
+			TypeCache.Refresh (131ms)
+				TypeCache.ScanAssembly (120ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (505ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (569ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (467ms)
+		SetupLoadedEditorAssemblies (524ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (326ms)
+			InitializePlatformSupportModulesInManaged (340ms)
 			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (99ms)
-			ProcessInitializeOnLoadMethodAttributes (36ms)
+			ProcessInitializeOnLoadAttributes (125ms)
+			ProcessInitializeOnLoadMethodAttributes (53ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -121,51 +121,51 @@ Domain Reload Profiling: 800ms
 Worker process is ready to serve import requests
 Caller must complete domain reload
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.517 seconds
+- Loaded All Assemblies, in  0.625 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.515 seconds
-Domain Reload Profiling: 1031ms
-	BeginReloadAssembly (127ms)
+- Finished resetting the current domain, in  0.568 seconds
+Domain Reload Profiling: 1192ms
+	BeginReloadAssembly (152ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
+		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (22ms)
-	RebuildCommonClasses (25ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (35ms)
-	LoadAllAssembliesAndSetupDomain (320ms)
-		LoadAssemblies (248ms)
+		CreateAndSetChildDomain (27ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (43ms)
+	LoadAllAssembliesAndSetupDomain (384ms)
+		LoadAssemblies (281ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (146ms)
-			TypeCache.Refresh (124ms)
-				TypeCache.ScanAssembly (110ms)
-			ScanForSourceGeneratedMonoScriptInfo (16ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (515ms)
+		AnalyzeDomain (188ms)
+			TypeCache.Refresh (156ms)
+				TypeCache.ScanAssembly (138ms)
+			ScanForSourceGeneratedMonoScriptInfo (25ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (569ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (391ms)
+		SetupLoadedEditorAssemblies (390ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (22ms)
+			InitializePlatformSupportModulesInManaged (17ms)
 			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (60ms)
-			ProcessInitializeOnLoadAttributes (269ms)
-			ProcessInitializeOnLoadMethodAttributes (30ms)
+			BeforeProcessingInitializeOnLoad (61ms)
+			ProcessInitializeOnLoadAttributes (268ms)
+			ProcessInitializeOnLoadMethodAttributes (34ms)
 			AfterProcessingInitializeOnLoad (5ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (5ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 2.40 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 2.65 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3979 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 38 unused Assets / (241.2 KB). Loaded Objects now: 4445.
-Memory consumption went from 140.0 MB to 139.7 MB.
-Total: 3.659900 ms (FindLiveObjects: 0.527500 ms CreateObjectMapping: 0.285100 ms MarkObjects: 2.668500 ms  DeleteObjects: 0.177900 ms)
+Unloading 37 unused Assets / (214.3 KB). Loaded Objects now: 4446.
+Memory consumption went from 140.0 MB to 139.8 MB.
+Total: 3.262500 ms (FindLiveObjects: 0.285900 ms CreateObjectMapping: 0.139600 ms MarkObjects: 2.674500 ms  DeleteObjects: 0.161700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -182,130 +182,224 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Prepare
-Caller must complete domain reload
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.654 seconds
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.581 seconds
-Domain Reload Profiling: 1235ms
-	BeginReloadAssembly (419ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (293ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (34ms)
-	RebuildCommonClasses (33ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (24ms)
-	LoadAllAssembliesAndSetupDomain (170ms)
-		LoadAssemblies (225ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (10ms)
-			TypeCache.Refresh (5ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (581ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (417ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (15ms)
-			SetLoadedEditorAssemblies (4ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (62ms)
-			ProcessInitializeOnLoadAttributes (290ms)
-			ProcessInitializeOnLoadMethodAttributes (38ms)
-			AfterProcessingInitializeOnLoad (8ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (15ms)
-Refreshing native plugins compatible for Editor in 4.10 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3974 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 25 unused Assets / (213.2 KB). Loaded Objects now: 4450.
-Memory consumption went from 139.2 MB to 139.0 MB.
-Total: 3.851100 ms (FindLiveObjects: 0.358000 ms CreateObjectMapping: 0.136200 ms MarkObjects: 3.133500 ms  DeleteObjects: 0.222200 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 1533950.621630 seconds.
+  path: Assets/Map/Background_Map3/ParallaxCave3.png
+  artifactKey: Guid(94e53531ae6511c4690c547143ed8d04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Background_Map3/ParallaxCave3.png using Guid(94e53531ae6511c4690c547143ed8d04) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7076b77195d7bdec26285ec709fd6f13') in 0.086073 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
 ========================================================================
-Received Prepare
-Caller must complete domain reload
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.373 seconds
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.880 seconds
-Domain Reload Profiling: 1251ms
-	BeginReloadAssembly (132ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (11ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (33ms)
-	RebuildCommonClasses (26ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (24ms)
-	LoadAllAssembliesAndSetupDomain (180ms)
-		LoadAssemblies (232ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (10ms)
-			TypeCache.Refresh (5ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (880ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (439ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (14ms)
-			SetLoadedEditorAssemblies (4ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (58ms)
-			ProcessInitializeOnLoadAttributes (310ms)
-			ProcessInitializeOnLoadMethodAttributes (45ms)
-			AfterProcessingInitializeOnLoad (8ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (17ms)
-Refreshing native plugins compatible for Editor in 4.24 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3974 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 25 unused Assets / (213.1 KB). Loaded Objects now: 4454.
-Memory consumption went from 139.2 MB to 139.0 MB.
-Total: 4.392600 ms (FindLiveObjects: 0.419800 ms CreateObjectMapping: 0.124700 ms MarkObjects: 3.587100 ms  DeleteObjects: 0.259300 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 1226.162383 seconds.
+  path: Assets/Map/Map3/pixel_advanture/Terrain/Terrain (16x16)_0.asset
+  artifactKey: Guid(3b2fc3773dc28254b8c1a861245cd177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Map3/pixel_advanture/Terrain/Terrain (16x16)_0.asset using Guid(3b2fc3773dc28254b8c1a861245cd177) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '71f446e85f5bc4116ebac729253d2d90') in 0.023883 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Map/Map3/pixel_advanture/Terrain/Terrain (16x16)_31.asset
+  artifactKey: Guid(40b70f3e4fa582645b505c00c72ebc09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Map3/pixel_advanture/Terrain/Terrain (16x16)_31.asset using Guid(40b70f3e4fa582645b505c00c72ebc09) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ec544b46e29b68c23d78e53cf8a95b56') in 0.020052 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Map/Map3/pixel_advanture/Terrain/Terrain (16x16)_40.asset
+  artifactKey: Guid(2cd1f16436bead94798542092ebc9642) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Map3/pixel_advanture/Terrain/Terrain (16x16)_40.asset using Guid(2cd1f16436bead94798542092ebc9642) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9a891cb034c7478251abb7a9c7bb2c40') in 0.018984 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Map/Map3/pixel_advanture/Terrain/Terrain (16x16)_13.asset
+  artifactKey: Guid(3a784840c56cf63418778081c1a4f9cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Map3/pixel_advanture/Terrain/Terrain (16x16)_13.asset using Guid(3a784840c56cf63418778081c1a4f9cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3957e68232e035085a9bd78ec5edd062') in 0.016884 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Map/Map3/pixel_advanture/Terrain/Terrain (16x16)_28.asset
+  artifactKey: Guid(509fabe432e10b542882cbb54bffc700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Map3/pixel_advanture/Terrain/Terrain (16x16)_28.asset using Guid(509fabe432e10b542882cbb54bffc700) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a3c958dbf5b3cf373e7b2bbb0c47f02f') in 0.015717 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Map/Map3/pixel_advanture/Terrain/Terrain (16x16)_4.asset
+  artifactKey: Guid(8fbf4f29311b5314cb33fbb077919d8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Map3/pixel_advanture/Terrain/Terrain (16x16)_4.asset using Guid(8fbf4f29311b5314cb33fbb077919d8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1911a94bb97d72e4f896a6b773a4f4a6') in 0.014568 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Map/Map3/pixel_advanture/Terrain/Terrain (16x16)_27.asset
+  artifactKey: Guid(74e7eb9d25b5eb543a0c875fec5b0d27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Map3/pixel_advanture/Terrain/Terrain (16x16)_27.asset using Guid(74e7eb9d25b5eb543a0c875fec5b0d27) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '429f636694262c59c57ff18e736cd0d3') in 0.014999 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Map/Map3/pixel_advanture/Terrain/Terrain (16x16)_36.asset
+  artifactKey: Guid(b32e0b217c87cfe44b5220a8455e21e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Map3/pixel_advanture/Terrain/Terrain (16x16)_36.asset using Guid(b32e0b217c87cfe44b5220a8455e21e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7d626dde424cac6749dea3a993677cb5') in 0.016054 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Map/Map3/pixel_advanture/Terrain/Terrain (16x16)_26.asset
+  artifactKey: Guid(6ad6d3d83aab66246b6e999ef09a9062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Map3/pixel_advanture/Terrain/Terrain (16x16)_26.asset using Guid(6ad6d3d83aab66246b6e999ef09a9062) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '80dbeb93954e03136dddf19589407694') in 0.014766 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Map/Map3/pixel_advanture/Terrain/Terrain (16x16)_32.asset
+  artifactKey: Guid(b5912de1811aa694b945c8619c0f87ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Map3/pixel_advanture/Terrain/Terrain (16x16)_32.asset using Guid(b5912de1811aa694b945c8619c0f87ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '375f90a9e4607441b82889c90919903c') in 0.015532 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Map/Map3/pixel_advanture/Terrain/Terrain (16x16)_2.asset
+  artifactKey: Guid(72d813cc27ec10841a1498db28729346) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Map3/pixel_advanture/Terrain/Terrain (16x16)_2.asset using Guid(72d813cc27ec10841a1498db28729346) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0f8b480d08b4499c22fc9c4c86083bad') in 0.014663 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Map/Map3/pixel_advanture/Terrain/Terrain (16x16)_18.asset
+  artifactKey: Guid(fed6cdd7b985fa642b5297ca8ab24f62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Map3/pixel_advanture/Terrain/Terrain (16x16)_18.asset using Guid(fed6cdd7b985fa642b5297ca8ab24f62) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '32a248275be6cbe46d87f635a9dbbd31') in 0.014692 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Map/Map3/pixel_advanture/Terrain/Terrain (16x16)_16.asset
+  artifactKey: Guid(9fb7dc626a95c7749b4c3867e49b1b67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Map3/pixel_advanture/Terrain/Terrain (16x16)_16.asset using Guid(9fb7dc626a95c7749b4c3867e49b1b67) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'bf29605a8b06d98dc72d277db155a058') in 0.016328 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Map/Map3/pixel_advanture/Terrain/Terrain (16x16)_41.asset
+  artifactKey: Guid(a25736a254a025c48b270eb33196e701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Map3/pixel_advanture/Terrain/Terrain (16x16)_41.asset using Guid(a25736a254a025c48b270eb33196e701) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '483c24bc4e2d3a0075ffe713c9beeafc') in 0.013542 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Map/Map3/pixel_advanture/Terrain/Terrain (16x16)_7.asset
+  artifactKey: Guid(167f31423f6176a4dbc71a177f7169d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Map3/pixel_advanture/Terrain/Terrain (16x16)_7.asset using Guid(167f31423f6176a4dbc71a177f7169d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5e64527bf6348aeff0226604f72b3596') in 0.017246 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Map/Map3/pixel_advanture/Terrain/Terrain (16x16)_39.asset
+  artifactKey: Guid(3954c225996c4904fb0612ac1b9e8864) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Map3/pixel_advanture/Terrain/Terrain (16x16)_39.asset using Guid(3954c225996c4904fb0612ac1b9e8864) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7e622c2f6371ed6daa3bdb66f124fb73') in 0.014751 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Map/Map3/pixel_advanture/Terrain/Terrain (16x16)_22.asset
+  artifactKey: Guid(a85175275093f03468477230fd9d7c76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Map3/pixel_advanture/Terrain/Terrain (16x16)_22.asset using Guid(a85175275093f03468477230fd9d7c76) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a383a57bde4f762d1a45ce04e1b27a11') in 0.015451 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Map/Map3/pixel_advanture/Terrain/Terrain (16x16)_1.asset
+  artifactKey: Guid(31caa75d4a2aec346b5a29e2193808c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Map3/pixel_advanture/Terrain/Terrain (16x16)_1.asset using Guid(31caa75d4a2aec346b5a29e2193808c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd33da40f7a22584ffe138dbd50b8812f') in 0.014179 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Map/Map3/pixel_advanture/Terrain/Terrain (16x16)_30.asset
+  artifactKey: Guid(0d7b6cd65ead6f0428da93a424f2dd20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Map3/pixel_advanture/Terrain/Terrain (16x16)_30.asset using Guid(0d7b6cd65ead6f0428da93a424f2dd20) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '092c6f973f0471b4f7c3e04a834d3452') in 0.014197 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Map/Map3/pixel_advanture/Terrain/Terrain (16x16)_8.asset
+  artifactKey: Guid(b2cad273bce6d5f418fdfbcf3f3c3e73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Map3/pixel_advanture/Terrain/Terrain (16x16)_8.asset using Guid(b2cad273bce6d5f418fdfbcf3f3c3e73) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'cf549c414afe935c0017bbd27d8d2f74') in 0.015522 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Map/Map3/pixel_advanture/Terrain/Terrain (16x16)_29.asset
+  artifactKey: Guid(33c3d3b2ad36dfa46890b65b1ad05149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Map3/pixel_advanture/Terrain/Terrain (16x16)_29.asset using Guid(33c3d3b2ad36dfa46890b65b1ad05149) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3540ae0891d21554dba75349f355c867') in 0.014662 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Map/Map3/pixel_advanture/Terrain/Terrain (16x16)_3.asset
+  artifactKey: Guid(7e472b16bba4b8b4799196f4f13be580) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Map3/pixel_advanture/Terrain/Terrain (16x16)_3.asset using Guid(7e472b16bba4b8b4799196f4f13be580) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd4841e844eed0f29add9ade7a04817d7') in 0.014641 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Map/Map3/pixel_advanture/Terrain/Terrain (16x16)_21.asset
+  artifactKey: Guid(5bbc6798a2d96e64081a63e0326ca247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Map3/pixel_advanture/Terrain/Terrain (16x16)_21.asset using Guid(5bbc6798a2d96e64081a63e0326ca247) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f4d86297e17fdb18ea50e1ed2083baf8') in 0.014066 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
